@@ -271,11 +271,11 @@
                             </div>
                             <!-- รูปตัวละคร -->
                             <div class="img-avatar">
-                                <!-- <img src="assets/image/Characters/hero-1.png" alt=""/> -->
                             </div>
                         </div>
                     </div>
                     <div class="bar-avatar">
+                        <!-- carousel เเสดงรูป ตัวละคร -->
                         <div class="owl-carousel">
                             <div class="item item-owl" index-avatar="1" name="Test1" att="50%" dex="30%" def="10%"
                                 mat="60%">
@@ -306,7 +306,8 @@
                                 mat="66%">
                                 <div class="border-avater ">
                                     <div class="avatar">
-                                        <img style="top: -25px;" src="assets/image/Characters/icons-hero/hero-small-4.png" alt="">
+                                        <img style="top: -25px;"
+                                            src="assets/image/Characters/icons-hero/hero-small-4.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -314,7 +315,8 @@
                                 mat="80%">
                                 <div class="border-avater ">
                                     <div class="avatar">
-                                        <img style="left: -35px;" src="assets/image/Characters/icons-hero/hero-small-5.png" alt="">
+                                        <img style="left: -35px;"
+                                            src="assets/image/Characters/icons-hero/hero-small-5.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -322,7 +324,8 @@
                                 mat="90%">
                                 <div class="border-avater ">
                                     <div class="avatar">
-                                        <img style=" left: 5px;" src="assets/image/Characters/icons-hero/hero-small-6.png" alt="">
+                                        <img style=" left: 5px;"
+                                            src="assets/image/Characters/icons-hero/hero-small-6.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -330,7 +333,8 @@
                                 mat="100%">
                                 <div class="border-avater ">
                                     <div class="avatar">
-                                        <img style="left: 2px;" src="assets/image/Characters/icons-hero/hero-small-7.png" alt="">
+                                        <img style="left: 2px;"
+                                            src="assets/image/Characters/icons-hero/hero-small-7.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -338,7 +342,8 @@
                                 mat="100%">
                                 <div class="border-avater ">
                                     <div class="avatar">
-                                        <img style="top: -10px; left: 2px;" src="assets/image/Characters/icons-hero/hero-small-8.png" alt="">
+                                        <img style="top: -10px; left: 2px;"
+                                            src="assets/image/Characters/icons-hero/hero-small-8.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -346,7 +351,8 @@
                                 mat="100%">
                                 <div class="border-avater ">
                                     <div class="avatar">
-                                        <img style="top: -15px; left: 5px;" src="assets/image/Characters/icons-hero/hero-small-9.png" alt="">
+                                        <img style="top: -15px; left: 5px;"
+                                            src="assets/image/Characters/icons-hero/hero-small-9.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -354,7 +360,8 @@
                                 mat="100%">
                                 <div class="border-avater ">
                                     <div class="avatar">
-                                        <img style="top: -10px; left: -7px;" src="assets/image/Characters/icons-hero/hero-small-10.png" alt="">
+                                        <img style="top: -10px; left: -7px;"
+                                            src="assets/image/Characters/icons-hero/hero-small-10.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -362,7 +369,8 @@
                                 mat="100%">
                                 <div class="border-avater ">
                                     <div class="avatar">
-                                        <img style="top: -12px; left: 3px;" src="assets/image/Characters/icons-hero/hero-small-11.png" alt="">
+                                        <img style="top: -12px; left: 3px;"
+                                            src="assets/image/Characters/icons-hero/hero-small-11.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -370,7 +378,8 @@
                                 mat="100%">
                                 <div class="border-avater ">
                                     <div class="avatar">
-                                        <img style="top: -12px; left: 5px;" src="assets/image/Characters/icons-hero/hero-small-12.png" alt="">
+                                        <img style="top: -12px; left: 5px;"
+                                            src="assets/image/Characters/icons-hero/hero-small-12.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -378,7 +387,8 @@
                                 mat="100%">
                                 <div class="border-avater ">
                                     <div class="avatar">
-                                        <img style="top: -18px; left: 8px;" src="assets/image/Characters/icons-hero/hero-small-13.png" alt="">
+                                        <img style="top: -18px; left: 8px;"
+                                            src="assets/image/Characters/icons-hero/hero-small-13.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -386,11 +396,13 @@
                                 mat="100%">
                                 <div class="border-avater">
                                     <div class="avatar">
-                                        <img style="top: -10px; left: 0px;" src="assets/image/Characters/icons-hero/hero-small-14.png" alt="">
+                                        <img style="top: -10px; left: 0px;"
+                                            src="assets/image/Characters/icons-hero/hero-small-14.png" alt="">
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <!-- carousel เเสดงรูป ตัวละคร -->
                     </div>
                 </div>
             </div>
@@ -440,11 +452,11 @@
                 var attributeDef = currentSlide.attr('def');
                 var attributeMat = currentSlide.attr('mat');
                 var indexAvatar = currentSlide.attr('index-avatar');
-                console.log(currentItem)
                 const barAtt = document.getElementById('barAtt')
                 const barDex = document.getElementById('barDex')
                 const barDef = document.getElementById('barDef')
                 const barMat = document.getElementById('barMat')
+                const urlImgsAvatar = `url('/assets/image/Characters/hero/hero-${indexAvatar}".png')`
 
                 $("#sAtt").text(attributeAtt)
                 $("#sDex").text(attributeDex)
@@ -456,9 +468,6 @@
                 barDex.style.width = attributeDex
                 barDef.style.width = attributeDef
                 barMat.style.width = attributeMat
-
-                const urlImgsAvatar = `url('/assets/image/Characters/hero/hero-${indexAvatar}".png')`
-                console.log(urlImgsAvatar)
 
                 $(".img-avatar").css("background-image", `url('assets/image/Characters/hero/hero-${indexAvatar}.png')`);
 
