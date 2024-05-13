@@ -1,0 +1,44 @@
+.border-avater{
+    height: 9.3rem;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    background-position: center left 1px;
+    background-size: cover;
+    filter: grayscale(0.4);
+    background-repeat: no-repeat;
+    background-image: url(./assets/image/Characters/hero-small-bg.png);
+}
+.avatar-active{
+    filter: grayscale(0);
+    z-index: 100;
+    height: 9.3rem;
+    width: 100%;
+    display: flex;
+    background-position: center left 1px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./assets/image/Characters/hero-small-hover-bg.png);
+}
+.avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.avatar img{
+    position: relative;
+}
+.img-avatar{
+    position: absolute;
+    width: 60rem;
+    height: 40rem;
+    right: 8rem;
+    top: 0rem;
+    /* background-color: red; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: url(./assets/image/Characters/hero/hero-7.png); */
+}
+.owl-carousel{
+    background-color: rgba(33, 32, 32, 0.6);
+}

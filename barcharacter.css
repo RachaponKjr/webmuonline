@@ -1,0 +1,117 @@
+.bar-avatar{
+        position: relative;
+        top: 5rem;
+        display: flex;
+        justify-content: center;
+        height: 9.3rem;    
+        box-shadow: inset black;
+}
+.bar-avatar::after{
+        content: "";
+        z-index: 100;
+        top: 0;
+        width:10rem;
+        position: absolute;
+        left: calc(50% - 5rem);
+        /* background-color: aqua; */
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(./assets/image/Characters/char-slide-active-border.png);
+}
+
+.item-owl{
+        height: 9.3rem;
+}
+
+
+
+
+/* ################## */
+.box-list{
+        display: flex;
+        height: max-content;
+        width: 100%;
+      }
+.box-list ul{
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+}
+.box-list ul li{
+        position: relative;
+        display: flex;
+        justify-content: start;
+        gap: 2rem;
+        align-items: center;
+        height: 4rem;
+        padding: 0 2rem 0 2rem;
+        /* padding: 15px 160px 15px 90px; */
+}
+.box-list ul li:hover:after{
+        content: "";
+        top: 0;
+        left: 0;
+        position: absolute;
+        width: 2px;
+        height: 100%;
+        background-color: chocolate;
+}
+.box-list ul li:hover{
+        background: linear-gradient(to right, #030303, rgba(3, 3, 3, 0.1));
+}
+.icon-news{
+        position: relative;
+        width: 3rem;
+        height: 3rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 1rem;
+        background-image: url(./assets/image/Board/icon-news.png);
+}
+.main-info-box{
+        display: flex;
+        flex-direction: column;
+}
+.news-info{
+        display: flex;
+        justify-content: center;
+        flex-grow: 1;
+        flex-direction: row;
+        justify-content: space-between;
+}
+.news-info h4{
+        color: white;
+        font-size: 14px;
+        margin: 0;
+}
+.news-info p{
+       margin: 0;
+}
+.news-info span{
+        color: orange;
+}
+.btn-more{
+        display: none;
+        cursor: pointer;
+        width: 7rem;
+        height: 2.5rem;
+        background-image: url(./assets/image/Board/button.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+}
+.box-list ul li:hover .btn-more{
+        display: flex;
+}
+.btn-more h5{
+        color: white;
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        height: 2rem;
+}
