@@ -187,15 +187,18 @@
                         <div class="header-top">
                             <div class="logo-hero"></div>
                             <div class="info-caracter">
+                                <!-- ชื่อตัวละคร -->
                                 <div class="name-caracter">
                                     <h4 id="name-avatar">Magic Gladiator</h4>
                                     <span>
                                         Soul Master and Grand Master
                                     </span>
                                 </div>
+                                <!-- ชื่อตัวละคร -->
                             </div>
                         </div>
                         <div class="main-info">
+                            <!-- ข้อลูลตัวละคร -->
                             <div class="info">
                                 <p>
                                     The Dark Wizard knows many combat spells that can kill any animal or human almost
@@ -203,7 +206,9 @@
                                     enormous amount of wizard's energy.
                                 </p>
                             </div>
+                            <!-- ข้อลูลตัวละคร -->
                             <h6>Team online:</h6>
+                            <!-- Bar เเสดง ความสามารถของตัวละคร -->
                             <div class="status-avatar">
                                 <div class="skill-status">
                                     <div class="icon-skill-1"></div>
@@ -269,6 +274,7 @@
                                     </div>
                                 </div>
                             </div>
+                            <!-- Bar เเสดง ความสามารถของตัวละคร -->
                             <!-- รูปตัวละคร -->
                             <div class="img-avatar">
                             </div>
