@@ -287,7 +287,8 @@
                                 mat="60%">
                                 <div class="border-avater avatar-active">
                                     <div class="avatar">
-                                        <img src="assets/image/Characters/icons-hero/hero-small-1.png" alt="">
+                                        <img style="top: -13px; left: 10px;"
+                                            src="assets/image/Characters/icons-hero/hero-small-1.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -295,7 +296,8 @@
                                 mat="6%">
                                 <div class="border-avater ">
                                     <div class="avatar">
-                                        <img src="assets/image/Characters/icons-hero/hero-small-2.png" alt="">
+                                        <img style="top: -13px; left: 10px;"
+                                            src="assets/image/Characters/icons-hero/hero-small-2.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -312,7 +314,7 @@
                                 mat="66%">
                                 <div class="border-avater ">
                                     <div class="avatar">
-                                        <img style="top: -25px;"
+                                        <img style="top: -25px; left: 10px"
                                             src="assets/image/Characters/icons-hero/hero-small-4.png" alt="">
                                     </div>
                                 </div>
@@ -321,7 +323,7 @@
                                 mat="80%">
                                 <div class="border-avater ">
                                     <div class="avatar">
-                                        <img style="left: -35px;"
+                                        <img style="top: -11px; left: -33px;"
                                             src="assets/image/Characters/icons-hero/hero-small-5.png" alt="">
                                     </div>
                                 </div>
@@ -330,7 +332,7 @@
                                 mat="90%">
                                 <div class="border-avater ">
                                     <div class="avatar">
-                                        <img style=" left: 5px;"
+                                        <img style="top: -13px; left: 6px;"
                                             src="assets/image/Characters/icons-hero/hero-small-6.png" alt="">
                                     </div>
                                 </div>
@@ -339,7 +341,7 @@
                                 mat="100%">
                                 <div class="border-avater ">
                                     <div class="avatar">
-                                        <img style="left: 2px;"
+                                        <img style="top: -10px;"
                                             src="assets/image/Characters/icons-hero/hero-small-7.png" alt="">
                                     </div>
                                 </div>
@@ -348,7 +350,7 @@
                                 mat="100%">
                                 <div class="border-avater ">
                                     <div class="avatar">
-                                        <img style="top: -10px; left: 2px;"
+                                        <img style="top: -12px; left: 2px;"
                                             src="assets/image/Characters/icons-hero/hero-small-8.png" alt="">
                                     </div>
                                 </div>
@@ -433,11 +435,24 @@
             $(".img-avatar").css("background-image", `url('assets/image/Characters/hero/hero-1.png')`);
         </script>
         <script>
+            var $owl = $('.owl-carousel');
+
+            $owl.children().each(function (index) {
+                $(this).attr('data-position', index); // NB: .attr() instead of .data()
+            });
+
+            $(document).on('click', '.item-owl', function () {
+                // see https://owlcarousel2.github.io/OwlCarousel2/docs/api-events.html#to-owl-carousel
+                var $speed = 300;  // in ms
+                $owl.trigger('to.owl.carousel', [$(this).data('position'), $speed]);
+            });
+
             $(document).ready(function () {
                 $(".owl-carousel").owlCarousel();
             });
             $('.owl-carousel').owlCarousel({
                 rtl: false,
+                stagePadding: 20,
                 center: true,
                 loop: true,
                 margin: 10,

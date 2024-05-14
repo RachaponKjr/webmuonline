@@ -8,7 +8,6 @@
 }
 .bar-avatar::after{
         content: "";
-        z-index: 100;
         top: 0;
         width:10rem;
         position: absolute;

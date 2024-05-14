@@ -24,6 +24,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .avatar img{
     position: relative;
@@ -31,14 +32,16 @@
 .img-avatar{
     position: absolute;
     width: 60rem;
-    height: 40rem;
+    height: 54rem;
     right: 8rem;
-    top: 0rem;
+    top: -4rem;
     /* background-color: red; */
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain *2;
+    background-position: center;
     /* background-image: url(./assets/image/Characters/hero/hero-7.png); */
 }
 .owl-carousel{
     background-color: rgba(33, 32, 32, 0.6);
+    
 }
