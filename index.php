@@ -310,7 +310,7 @@
                             <a href="#####" class="more-button button">more</a>
                         </div>
                     </div>
-                    <span class="corner-top-left-top-player corner-top-left-blue-top-player"></span>
+                    <span class="corner-top-left-top-player corner-top-left-purple-top-player"></span>
                 </div>
             </div>
         </div>
