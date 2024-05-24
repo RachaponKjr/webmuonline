@@ -1,0 +1,149 @@
+.main-top-player{
+    width: 100%;
+    background-color: #0F0E0C;
+    height: max-content;
+    padding: 10rem 0;
+}
+.box-top-player{
+    width: 100%;
+    display: flex;
+    padding: 0 8rem;
+    flex-direction: row;
+    justify-content: center;
+}
+.main-box{
+    width: 50%;
+    padding: 40px;
+    position: relative;
+}
+.home-block-top {
+    height: 566px;
+    padding: 25px 0px;
+}
+.home-block {
+    border: 5px solid #000;
+    border-image: url(../assets/image/top_player/block-border.png) 5 round round;
+    background-color: #1a1919;
+    position: relative;
+}
+.home-block:before {
+    content: "";
+    position: absolute;
+    background: url(../assets/image/Board/skull.png) no-repeat;
+    width: 106px;
+    height: 33px;
+    scale: 1.2;
+    left: 50%;
+    margin-left: -53px;
+    bottom: calc(100% - 7px);
+}
+.home-block:after {
+    content: "";
+    position: absolute;
+    background: url(../assets/image/Board/corner-right-bottom.png) no-repeat;
+    width: 81px;
+    height: 81px;
+    right: -13px;
+    bottom: -11px;
+    scale: 1.2;
+}
+.corner-top-left-top-player {
+    width: 114px;
+    height: 123px;
+    position: absolute;
+    left: -5px;
+    top: -15px;
+    z-index: 10;
+}
+.corner-top-left-blue-top-player {
+    background: url(../assets/image/top_player/cornerblue.png) no-repeat;
+}
+.corner-top-left-purple-top-player {
+    background: url(../assets/image/top_player/cornerpurple.png) no-repeat;
+}
+
+
+.home-block-title {
+    color: #ffb400;
+    font-size: 18px;
+    text-transform: uppercase;
+    background: linear-gradient(to right, rgba(48, 40, 23, 0), #302817, rgba(48, 40, 23, 0));
+    padding: 12px 35px;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.list-table{
+    padding: 0;
+}
+.list-table li:hover{
+    color: #ffb400;
+}
+.list-table li {
+    display: flex;
+    align-items: center;
+    height: 65px;
+    padding: 0px 30px;
+    transition: 0.3s;
+    position: relative;
+}
+.hader-table {
+    background-color: #121111;
+    text-transform: uppercase;
+    color: #6a6a69;
+    font-weight: bold;
+}
+.info-table{
+    padding: 1rem 0;
+    color: white;
+}
+.info-table sup{
+    color: red;
+}
+.info-table:hover{
+    color: #ffb400;
+    background-color: #121111;
+}
+
+.tb-1{
+    width: 9%;
+}
+.tb-2{
+    width: 28%;
+    padding-right: 10px;
+}
+.tb-3{
+    width: 22%;
+}
+.tb-4{
+    width: 18%;
+}
+.td-5 {
+    width: 23%;
+}
+
+.more {
+    text-align: center;
+    margin-top: 20px;
+}
+.button {
+    display: inline-block;
+    text-decoration: none;
+    line-height: 40px;
+}
+ .button {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background: url(../assets/image/Board/button.png) no-repeat;
+    height: 40px;
+    width: 133px;
+    border: none;
+    color: #fff !important;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}

@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="characters.css">
     <link rel="stylesheet" href="avatar-style.css">
     <link rel="stylesheet" href="barcharacter.css">
+    <link rel="stylesheet" href="css/top-player.css">
     <link rel="stylesheet" href="owlcarousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="owlcarousel/dist/assets/owl.theme.default.min.css">
 </head>
@@ -175,6 +176,146 @@
             </div>
         </div>
         <!-- ข่าวสาร -->
+        <!-- Top Player && Top Guilds -->
+        <div class="main-top-player">
+            <div class="box-top-player">
+                <!-- กล่องประกาศ top player -->
+                <div class="main-box">
+                    <div class="home-block home-block-top">
+                        <div class="home-block-title">Top Guilds</div>
+                        <div class="box-list-topplayer">
+                            <ul class="list-table">
+                                <li class="hader-table">
+                                    <div class="tb-1">#</div>
+                                    <div class="tb-2">Name</div>
+                                    <div class="tb-3">Class</div>
+                                    <div class="tb-4">LvL</div>
+                                    <div class="tb-5">Res</div>
+                                </li>
+                                <li class="info-table">
+                                    <div class="tb-1">1</div>
+                                    <div class="tb-2">Gakutenou</div>
+                                    <div class="tb-3">
+                                    <span style="width:40px; height:40px;transform: rotate(45deg);overflow: hidden;"><img style="transform: rotate(-45deg) scale(1.42);width: 20px;height:20px" src="https://mu-online.lv/assets/default_assets/images/char_icons/le.jpg" title="Lord Emperor"></span>
+                                    </div>
+                                    <div class="tb-4">380<sup>400</sup></div>
+                                    <div class="tb-5">194<sup>12</sup></div>
+                                </li>
+                                <li class="info-table">
+                                    <div class="tb-1">1</div>
+                                    <div class="tb-2">Gakutenou</div>
+                                    <div class="tb-3">
+                                    <span style="width:40px; height:40px;transform: rotate(45deg);overflow: hidden;"><img style="transform: rotate(-45deg) scale(1.42);width: 20px;height:20px" src="https://mu-online.lv/assets/default_assets/images/char_icons/le.jpg" title="Lord Emperor"></span>
+                                    </div>
+                                    <div class="tb-4">380<sup>400</sup></div>
+                                    <div class="tb-5">194<sup>12</sup></div>
+                                </li>
+                                <li class="info-table">
+                                    <div class="tb-1">1</div>
+                                    <div class="tb-2">Gakutenou</div>
+                                    <div class="tb-3">
+                                    <span style="width:40px; height:40px;transform: rotate(45deg);overflow: hidden;"><img style="transform: rotate(-45deg) scale(1.42);width: 20px;height:20px" src="https://mu-online.lv/assets/default_assets/images/char_icons/le.jpg" title="Lord Emperor"></span>
+                                    </div>
+                                    <div class="tb-4">380<sup>400</sup></div>
+                                    <div class="tb-5">194<sup>12</sup></div>
+                                </li>
+                                <li class="info-table">
+                                    <div class="tb-1">1</div>
+                                    <div class="tb-2">Gakutenou</div>
+                                    <div class="tb-3">
+                                    <span style="width:40px; height:40px;transform: rotate(45deg);overflow: hidden;"><img style="transform: rotate(-45deg) scale(1.42);width: 20px;height:20px" src="https://mu-online.lv/assets/default_assets/images/char_icons/le.jpg" title="Lord Emperor"></span>
+                                    </div>
+                                    <div class="tb-4">380<sup>400</sup></div>
+                                    <div class="tb-5">194<sup>12</sup></div>
+                                </li>
+                                <li class="info-table">
+                                    <div class="tb-1">1</div>
+                                    <div class="tb-2">Gakutenou</div>
+                                    <div class="tb-3">
+                                    <span style="width:40px; height:40px;transform: rotate(45deg);overflow: hidden;"><img style="transform: rotate(-45deg) scale(1.42);width: 20px;height:20px" src="https://mu-online.lv/assets/default_assets/images/char_icons/le.jpg" title="Lord Emperor"></span>
+                                    </div>
+                                    <div class="tb-4">380<sup>400</sup></div>
+                                    <div class="tb-5">194<sup>12</sup></div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="more">
+                            <a href="#####" class="more-button button">more</a>
+                        </div>
+                    </div>
+                    <span class="corner-top-left-top-player corner-top-left-blue-top-player"></span>
+                </div>
+                <!-- กล่องประกาศ top guilds -->
+                <div class="main-box">
+                    <div class="home-block home-block-top">
+                        <div class="home-block-title">Top Guilds</div>
+                        <div class="box-list-topplayer">
+                            <ul class="list-table">
+                                <li class="hader-table">
+                                    <div class="tb-1">#</div>
+                                    <div class="tb-2">Name</div>
+                                    <div class="tb-3">Logo</div>
+                                    <div class="tb-4">score</div>
+                                    <div class="tb-5">total lvl</div>
+                                </li>
+                                <li class="info-table">
+                                    <div class="tb-1">1</div>
+                                    <div class="tb-2">Evidence</div>
+                                    <div class="tb-3">
+                                    <span style="width:40px; height:40px;transform: rotate(45deg);overflow: hidden;"><img style="transform: rotate(-45deg) scale(1.42);width: 20px;height:20px" src="https://mu-online.lv/rankings/get_mark/0007700000077000000770000007700000077000000000000007700000077000/20"></span>
+                                    </div>
+                                    <div class="tb-4">0</div>
+                                    <div class="tb-5">26</div>
+                                </li>
+                                <li class="info-table">
+                                    <div class="tb-1">1</div>
+                                    <div class="tb-2">Evidence</div>
+                                    <div class="tb-3">
+                                    <span style="width:40px; height:40px;transform: rotate(45deg);overflow: hidden;"><img style="transform: rotate(-45deg) scale(1.42);width: 20px;height:20px" src="https://mu-online.lv/rankings/get_mark/0007700000077000000770000007700000077000000000000007700000077000/20"></span>
+                                    </div>
+                                    <div class="tb-4">0</div>
+                                    <div class="tb-5">26</div>
+                                </li>
+                                <li class="info-table">
+                                    <div class="tb-1">1</div>
+                                    <div class="tb-2">Evidence</div>
+                                    <div class="tb-3">
+                                    <span style="width:40px; height:40px;transform: rotate(45deg);overflow: hidden;"><img style="transform: rotate(-45deg) scale(1.42);width: 20px;height:20px" src="https://mu-online.lv/rankings/get_mark/0007700000077000000770000007700000077000000000000007700000077000/20"></span>
+                                    </div>
+                                    <div class="tb-4">0</div>
+                                    <div class="tb-5">26</div>
+                                </li>
+                                <li class="info-table">
+                                    <div class="tb-1">1</div>
+                                    <div class="tb-2">Evidence</div>
+                                    <div class="tb-3">
+                                    <span style="width:40px; height:40px;transform: rotate(45deg);overflow: hidden;"><img style="transform: rotate(-45deg) scale(1.42);width: 20px;height:20px" src="https://mu-online.lv/rankings/get_mark/0007700000077000000770000007700000077000000000000007700000077000/20"></span>
+                                    </div>
+                                    <div class="tb-4">0</div>
+                                    <div class="tb-5">26</div>
+                                </li>
+                                <li class="info-table">
+                                    <div class="tb-1">1</div>
+                                    <div class="tb-2">Evidence</div>
+                                    <div class="tb-3">
+                                    <span style="width:40px; height:40px;transform: rotate(45deg);overflow: hidden;"><img style="transform: rotate(-45deg) scale(1.42);width: 20px;height:20px" src="https://mu-online.lv/rankings/get_mark/0007700000077000000770000007700000077000000000000007700000077000/20"></span>
+                                    </div>
+                                    <div class="tb-4">0</div>
+                                    <div class="tb-5">26</div>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                        <div class="more">
+                            <a href="#####" class="more-button button">more</a>
+                        </div>
+                    </div>
+                    <span class="corner-top-left-top-player corner-top-left-blue-top-player"></span>
+                </div>
+            </div>
+        </div>
+        <!-- Top Player && Top Guilds -->
+
         <!-- ตัวละคร -->
         <div class="box-characters">
             <div class="character">
@@ -189,7 +330,7 @@
                             <div class="info-caracter">
                                 <!-- ชื่อตัวละคร -->
                                 <div class="name-caracter">
-                                    <h4 id="name-avatar">Magic Gladiator</h4>
+                                    <h4 id="name-avatar">Dark Wiard</h4>
                                     <span>
                                         Soul Master and Grand Master
                                     </span>
@@ -216,7 +357,7 @@
                                         <div class="titel-skill">
                                             <div class="skill">
                                                 <h6>Attack power</h6>
-                                                <h6 id="sAtt">50%</h6>
+                                                <h6 id="sAtt">58%</h6>
                                             </div>
                                             <div class="bar-skill">
                                                 <div id="barAtt" class="after-bar"></div>
@@ -232,7 +373,7 @@
                                         <div class="titel-skill">
                                             <div class="skill">
                                                 <h6>Dexterity</h6>
-                                                <h6 id="sDex">30%</h6>
+                                                <h6 id="sDex">22%</h6>
                                             </div>
                                             <div class="bar-skill">
                                                 <div id="barDex" class="after-bar"></div>
@@ -248,7 +389,7 @@
                                         <div class="titel-skill">
                                             <div class="skill">
                                                 <h6>Defence</h6>
-                                                <h6 id="sDef">10%</h6>
+                                                <h6 id="sDef">75%</h6>
                                             </div>
                                             <div class="bar-skill">
                                                 <div id="barDef" class="after-bar"></div>
@@ -264,7 +405,7 @@
                                         <div class="titel-skill">
                                             <div class="skill">
                                                 <h6>Matery</h6>
-                                                <h6 id="sMat">60%</h6>
+                                                <h6 id="sMat">95%</h6>
                                             </div>
                                             <div class="bar-skill">
                                                 <div id="barMat" class="after-bar"></div>
@@ -283,8 +424,8 @@
                     <div class="bar-avatar">
                         <!-- carousel เเสดงรูป ตัวละคร -->
                         <div class="owl-carousel">
-                            <div class="item item-owl" index-avatar="1" name="Test1" att="50%" dex="30%" def="10%"
-                                mat="60%">
+                            <div class="item item-owl" index-avatar="1" name="Dark Wiard" att="58%" dex="22%" def="75%"
+                                mat="95%">
                                 <div class="border-avater avatar-active">
                                     <div class="avatar">
                                         <img style="top: -13px; left: 10px;"
@@ -292,8 +433,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="item item-owl" index-avatar="2" name="Test2" att="10%" dex="30%" def="16%"
-                                mat="6%">
+                            <div class="item item-owl" index-avatar="2" name="Kundun Merhis" att="58%" dex="22%"
+                                def="75%" mat="95%">
                                 <div class="border-avater ">
                                     <div class="avatar">
                                         <img style="top: -13px; left: 10px;"
@@ -301,8 +442,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="item item-owl" index-avatar="3" name="Test3" att="80%" dex="70%" def="10%"
-                                mat="40%">
+                            <div class="item item-owl" index-avatar="3" name="Lemurian" att="58%" dex="22%" def="75%"
+                                mat="95%">
                                 <div class="border-avater ">
                                     <div class="avatar">
                                         <img style="top: -18px; left: 4px;"
@@ -310,8 +451,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="item item-owl" index-avatar="4" name="Test4" att="60%" dex="60%" def="8%"
-                                mat="66%">
+                            <div class="item item-owl" index-avatar="4" name="Gun Crusher" att="58%" dex="22%" def="75%"
+                                mat="95%">
                                 <div class="border-avater ">
                                     <div class="avatar">
                                         <img style="top: -25px; left: 10px"
@@ -319,8 +460,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="item item-owl" index-avatar="5" name="Test5" att="70%" dex="20%" def="90%"
-                                mat="80%">
+                            <div class="item item-owl" index-avatar="5" name="Slayer" att="58%" dex="22%" def="75%"
+                                mat="95%">
                                 <div class="border-avater ">
                                     <div class="avatar">
                                         <img style="top: -11px; left: -33px;"
@@ -328,8 +469,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="item item-owl" index-avatar="6" name="Test6" att="20%" dex="50%" def="40%"
-                                mat="90%">
+                            <div class="item item-owl" index-avatar="6" name="Dark Knight" att="58%" dex="22%" def="75%"
+                                mat="95%">
                                 <div class="border-avater ">
                                     <div class="avatar">
                                         <img style="top: -13px; left: 6px;"
@@ -337,8 +478,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="item item-owl" index-avatar="7" name="Test7" att="40%" dex="70%" def="15%"
-                                mat="100%">
+                            <div class="item item-owl" index-avatar="7" name="Fairy Elf" att="58%" dex="22%" def="75%"
+                                mat="95%">
                                 <div class="border-avater ">
                                     <div class="avatar">
                                         <img style="top: -10px;"
@@ -346,8 +487,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="item item-owl" index-avatar="8" name="Test7" att="40%" dex="70%" def="15%"
-                                mat="100%">
+                            <div class="item item-owl" index-avatar="8" name="Magic Gladiator" att="58%" dex="22%"
+                                def="75%" mat="95%">
                                 <div class="border-avater ">
                                     <div class="avatar">
                                         <img style="top: -12px; left: 2px;"
@@ -355,8 +496,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="item item-owl" index-avatar="9" name="Test7" att="40%" dex="70%" def="15%"
-                                mat="100%">
+                            <div class="item item-owl" index-avatar="9" name="Dark Lord" att="58%" dex="22%" def="75%"
+                                mat="95%">
                                 <div class="border-avater ">
                                     <div class="avatar">
                                         <img style="top: -15px; left: 5px;"
@@ -364,8 +505,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="item item-owl" index-avatar="10" name="Test7" att="40%" dex="70%" def="15%"
-                                mat="100%">
+                            <div class="item item-owl" index-avatar="10" name="Summoner" att="58%" dex="22%" def="75%"
+                                mat="95%">
                                 <div class="border-avater ">
                                     <div class="avatar">
                                         <img style="top: -10px; left: -7px;"
@@ -373,8 +514,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="item item-owl" index-avatar="11" name="Test7" att="40%" dex="70%" def="15%"
-                                mat="100%">
+                            <div class="item item-owl" index-avatar="11" name="Rune Mage" att="58%" dex="22%" def="75%"
+                                mat="95%">
                                 <div class="border-avater ">
                                     <div class="avatar">
                                         <img style="top: -12px; left: 3px;"
@@ -382,8 +523,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="item item-owl" index-avatar="12" name="Test7" att="40%" dex="70%" def="15%"
-                                mat="100%">
+                            <div class="item item-owl" index-avatar="12" name="Rage Fighter" att="58%" dex="22%"
+                                def="75%" mat="95%">
                                 <div class="border-avater ">
                                     <div class="avatar">
                                         <img style="top: -12px; left: 5px;"
@@ -391,8 +532,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="item item-owl" index-avatar="13" name="Test7" att="40%" dex="70%" def="15%"
-                                mat="100%">
+                            <div class="item item-owl" index-avatar="13" name="Illusion Knight" att="58%" dex="22%"
+                                def="75%" mat="95%">
                                 <div class="border-avater ">
                                     <div class="avatar">
                                         <img style="top: -18px; left: 8px;"
@@ -400,8 +541,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="item item-owl" index-avatar="14" name="Test7" att="40%" dex="70%" def="15%"
-                                mat="100%">
+                            <div class="item item-owl" index-avatar="14" name="Grow Lancer" att="58%" dex="22%"
+                                def="75%" mat="95%">
                                 <div class="border-avater">
                                     <div class="avatar">
                                         <img style="top: -10px; left: 0px;"
