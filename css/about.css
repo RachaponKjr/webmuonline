@@ -1,0 +1,43 @@
+.about-box{
+    width: 100%;
+    height: max-content;
+    border: 5px solid #000;
+    border-image: url(../assets/image/top_player/block-border.png) 5 round round;
+    background-color: #1a1919;
+    position: relative;
+    padding: 0 2rem;
+    position: relative;
+}
+.about-box::after{
+    content: "";
+    position: absolute;
+    background: url(../assets/image/Board/skull.png) no-repeat;
+    width: 106px;
+    height: 33px;
+    scale: 1.2;
+    left: 50%;
+    margin-left: -53px;
+    bottom: calc(100% - 7px);
+}
+.about-box::before{
+    background: url(../assets/image/top_player/cornerpurple.png) no-repeat;
+    content: "";
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: -47px;
+    top: -57px;
+}
+.title-m{
+    margin-top: 1rem;
+}
+.img-about{
+    width: 100%;
+    margin: 1rem 0;
+}
+.about-box p{
+    color: white;
+}
+.btn-about{
+    margin: 3rem 0 1rem 0;
+}

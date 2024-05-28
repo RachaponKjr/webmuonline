@@ -21,8 +21,12 @@
     <link rel="stylesheet" href="avatar-style.css">
     <link rel="stylesheet" href="barcharacter.css">
     <link rel="stylesheet" href="css/top-player.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/owlboard.css">
+    <link rel="stylesheet" href="css/event.css">
     <link rel="stylesheet" href="owlcarousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="owlcarousel/dist/assets/owl.theme.default.min.css">
+
 </head>
 
 <body>
@@ -117,204 +121,340 @@
             </div>
 
         </div>
-        <!-- ข่าวสาร -->
-        <div class="main-box-board">
-            <!-- กล่องประกาศ -->
-            <div class="cover-box">
-                <div class="box-board">
-                    <span class="corner-top-left corner-top-left-yellow"></span>
-                    <div class="home-block-title flex-s">
-                        Last News <a href="https://mu-online.lv/home/all">all news</a>
-                    </div>
-                    <div class="box-list">
-                        <ul>
-                            <li>
-                                <!-- iconnews -->
-                                <div class="icon-news"></div>
-                                <div class="news-info">
-                                    <div class="main-info-box">
-                                        <h4>Lorem, ipsum.</h4>
-                                        <p><span>03</span> May 2024</p>
+        <!-- เพิ่มตรงนี้มา 27/5/67 -->
+        <div class="main-all-box">
+            <!-- ข่าวสาร -->
+            <div class="main-box-board">
+                <!-- กล่องประกาศ -->
+                <div class="cover-box">
+                    <div class="box-board">
+                        <span class="corner-top-left corner-top-left-yellow"></span>
+                        <div class="home-block-title flex-s">
+                            Last News <a href="https://mu-online.lv/home/all">all news</a>
+                        </div>
+                        <div class="box-list">
+                            <ul>
+                                <li>
+                                    <!-- iconnews -->
+                                    <div class="icon-news"></div>
+                                    <div class="news-info">
+                                        <div class="main-info-box">
+                                            <h4>Lorem, ipsum.</h4>
+                                            <p><span>03</span> May 2024</p>
+                                        </div>
+                                        <div class="btn-more">
+                                            <h5>More</h5>
+                                        </div>
                                     </div>
-                                    <div class="btn-more">
-                                        <h5>More</h5>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <!-- iconnews -->
-                                <div class="icon-news"></div>
-                                <div class="news-info">
-                                    <div class="main-info-box">
-                                        <h4>Lorem, ipsum.</h4>
-                                        <p><span>03</span> May 2024</p>
-                                    </div>
-                                    <div class="btn-more">
-                                        <h5>More</h5>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <!-- iconnews -->
-                                <div class="icon-news"></div>
-                                <div class="news-info">
-                                    <div class="main-info-box">
-                                        <h4>Lorem, ipsum.</h4>
-                                        <p><span>03</span> May 2024</p>
-                                    </div>
-                                    <div class="btn-more">
-                                        <h5>More</h5>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="box-board">
-                    <span class="corner-top-left corner-top-left-p"></span>
-                </div>
-            </div>
-        </div>
-        <!-- ข่าวสาร -->
-        <!-- Top Player && Top Guilds -->
-        <div class="main-top-player">
-            <div class="box-top-player">
-                <!-- กล่องประกาศ top player -->
-                <div class="main-box">
-                    <div class="home-block home-block-top">
-                        <div class="home-block-title">Top Guilds</div>
-                        <div class="box-list-topplayer">
-                            <ul class="list-table">
-                                <li class="hader-table">
-                                    <div class="tb-1">#</div>
-                                    <div class="tb-2">Name</div>
-                                    <div class="tb-3">Class</div>
-                                    <div class="tb-4">LvL</div>
-                                    <div class="tb-5">Res</div>
                                 </li>
-                                <li class="info-table">
-                                    <div class="tb-1">1</div>
-                                    <div class="tb-2">Gakutenou</div>
-                                    <div class="tb-3">
-                                    <span style="width:40px; height:40px;transform: rotate(45deg);overflow: hidden;"><img style="transform: rotate(-45deg) scale(1.42);width: 20px;height:20px" src="https://mu-online.lv/assets/default_assets/images/char_icons/le.jpg" title="Lord Emperor"></span>
+                                <li>
+                                    <!-- iconnews -->
+                                    <div class="icon-news"></div>
+                                    <div class="news-info">
+                                        <div class="main-info-box">
+                                            <h4>Lorem, ipsum.</h4>
+                                            <p><span>03</span> May 2024</p>
+                                        </div>
+                                        <div class="btn-more">
+                                            <h5>More</h5>
+                                        </div>
                                     </div>
-                                    <div class="tb-4">380<sup>400</sup></div>
-                                    <div class="tb-5">194<sup>12</sup></div>
                                 </li>
-                                <li class="info-table">
-                                    <div class="tb-1">1</div>
-                                    <div class="tb-2">Gakutenou</div>
-                                    <div class="tb-3">
-                                    <span style="width:40px; height:40px;transform: rotate(45deg);overflow: hidden;"><img style="transform: rotate(-45deg) scale(1.42);width: 20px;height:20px" src="https://mu-online.lv/assets/default_assets/images/char_icons/le.jpg" title="Lord Emperor"></span>
+                                <li>
+                                    <!-- iconnews -->
+                                    <div class="icon-news"></div>
+                                    <div class="news-info">
+                                        <div class="main-info-box">
+                                            <h4>Lorem, ipsum.</h4>
+                                            <p><span>03</span> May 2024</p>
+                                        </div>
+                                        <div class="btn-more">
+                                            <h5>More</h5>
+                                        </div>
                                     </div>
-                                    <div class="tb-4">380<sup>400</sup></div>
-                                    <div class="tb-5">194<sup>12</sup></div>
-                                </li>
-                                <li class="info-table">
-                                    <div class="tb-1">1</div>
-                                    <div class="tb-2">Gakutenou</div>
-                                    <div class="tb-3">
-                                    <span style="width:40px; height:40px;transform: rotate(45deg);overflow: hidden;"><img style="transform: rotate(-45deg) scale(1.42);width: 20px;height:20px" src="https://mu-online.lv/assets/default_assets/images/char_icons/le.jpg" title="Lord Emperor"></span>
-                                    </div>
-                                    <div class="tb-4">380<sup>400</sup></div>
-                                    <div class="tb-5">194<sup>12</sup></div>
-                                </li>
-                                <li class="info-table">
-                                    <div class="tb-1">1</div>
-                                    <div class="tb-2">Gakutenou</div>
-                                    <div class="tb-3">
-                                    <span style="width:40px; height:40px;transform: rotate(45deg);overflow: hidden;"><img style="transform: rotate(-45deg) scale(1.42);width: 20px;height:20px" src="https://mu-online.lv/assets/default_assets/images/char_icons/le.jpg" title="Lord Emperor"></span>
-                                    </div>
-                                    <div class="tb-4">380<sup>400</sup></div>
-                                    <div class="tb-5">194<sup>12</sup></div>
-                                </li>
-                                <li class="info-table">
-                                    <div class="tb-1">1</div>
-                                    <div class="tb-2">Gakutenou</div>
-                                    <div class="tb-3">
-                                    <span style="width:40px; height:40px;transform: rotate(45deg);overflow: hidden;"><img style="transform: rotate(-45deg) scale(1.42);width: 20px;height:20px" src="https://mu-online.lv/assets/default_assets/images/char_icons/le.jpg" title="Lord Emperor"></span>
-                                    </div>
-                                    <div class="tb-4">380<sup>400</sup></div>
-                                    <div class="tb-5">194<sup>12</sup></div>
                                 </li>
                             </ul>
                         </div>
-                        <div class="more">
-                            <a href="#####" class="more-button button">more</a>
+                    </div>
+                    <div class="box-board p-0">
+                        <span class="corner-top-left corner-top-left-p">
+                        </span>
+                        <!-- เพิ่ม 5/28/2024 -->
+                        <div class="owl-board">
+                            <div class="item-board">
+                                <img src="./assets/image/banner.jpg" alt="">
+                            </div>
+                            <div class="item-board">
+                                <img src="./assets/image/banner.jpg" alt="">
+                            </div>
+                            <div class="item-board">
+                                <img src="./assets/image/banner.jpg" alt="">
+                            </div>
                         </div>
                     </div>
-                    <span class="corner-top-left-top-player corner-top-left-blue-top-player"></span>
-                </div>
-                <!-- กล่องประกาศ top guilds -->
-                <div class="main-box">
-                    <div class="home-block home-block-top">
-                        <div class="home-block-title">Top Guilds</div>
-                        <div class="box-list-topplayer">
-                            <ul class="list-table">
-                                <li class="hader-table">
-                                    <div class="tb-1">#</div>
-                                    <div class="tb-2">Name</div>
-                                    <div class="tb-3">Logo</div>
-                                    <div class="tb-4">score</div>
-                                    <div class="tb-5">total lvl</div>
-                                </li>
-                                <li class="info-table">
-                                    <div class="tb-1">1</div>
-                                    <div class="tb-2">Evidence</div>
-                                    <div class="tb-3">
-                                    <span style="width:40px; height:40px;transform: rotate(45deg);overflow: hidden;"><img style="transform: rotate(-45deg) scale(1.42);width: 20px;height:20px" src="https://mu-online.lv/rankings/get_mark/0007700000077000000770000007700000077000000000000007700000077000/20"></span>
-                                    </div>
-                                    <div class="tb-4">0</div>
-                                    <div class="tb-5">26</div>
-                                </li>
-                                <li class="info-table">
-                                    <div class="tb-1">1</div>
-                                    <div class="tb-2">Evidence</div>
-                                    <div class="tb-3">
-                                    <span style="width:40px; height:40px;transform: rotate(45deg);overflow: hidden;"><img style="transform: rotate(-45deg) scale(1.42);width: 20px;height:20px" src="https://mu-online.lv/rankings/get_mark/0007700000077000000770000007700000077000000000000007700000077000/20"></span>
-                                    </div>
-                                    <div class="tb-4">0</div>
-                                    <div class="tb-5">26</div>
-                                </li>
-                                <li class="info-table">
-                                    <div class="tb-1">1</div>
-                                    <div class="tb-2">Evidence</div>
-                                    <div class="tb-3">
-                                    <span style="width:40px; height:40px;transform: rotate(45deg);overflow: hidden;"><img style="transform: rotate(-45deg) scale(1.42);width: 20px;height:20px" src="https://mu-online.lv/rankings/get_mark/0007700000077000000770000007700000077000000000000007700000077000/20"></span>
-                                    </div>
-                                    <div class="tb-4">0</div>
-                                    <div class="tb-5">26</div>
-                                </li>
-                                <li class="info-table">
-                                    <div class="tb-1">1</div>
-                                    <div class="tb-2">Evidence</div>
-                                    <div class="tb-3">
-                                    <span style="width:40px; height:40px;transform: rotate(45deg);overflow: hidden;"><img style="transform: rotate(-45deg) scale(1.42);width: 20px;height:20px" src="https://mu-online.lv/rankings/get_mark/0007700000077000000770000007700000077000000000000007700000077000/20"></span>
-                                    </div>
-                                    <div class="tb-4">0</div>
-                                    <div class="tb-5">26</div>
-                                </li>
-                                <li class="info-table">
-                                    <div class="tb-1">1</div>
-                                    <div class="tb-2">Evidence</div>
-                                    <div class="tb-3">
-                                    <span style="width:40px; height:40px;transform: rotate(45deg);overflow: hidden;"><img style="transform: rotate(-45deg) scale(1.42);width: 20px;height:20px" src="https://mu-online.lv/rankings/get_mark/0007700000077000000770000007700000077000000000000007700000077000/20"></span>
-                                    </div>
-                                    <div class="tb-4">0</div>
-                                    <div class="tb-5">26</div>
-                                </li>
-                                
-                            </ul>
-                        </div>
-                        <div class="more">
-                            <a href="#####" class="more-button button">more</a>
-                        </div>
-                    </div>
-                    <span class="corner-top-left-top-player corner-top-left-purple-top-player"></span>
                 </div>
             </div>
+            <!-- ข่าวสาร -->
+            <!-- Top Player && Top Guilds -->
+            <div class="main-top-player">
+                <div class="box-top-player">
+                    <!-- กล่องประกาศ top player -->
+                    <div class="main-box">
+                        <div class="home-block home-block-top">
+                            <div class="home-block-title">Top Guilds</div>
+                            <div class="box-list-topplayer">
+                                <ul class="list-table">
+                                    <li class="hader-table">
+                                        <div class="tb-1">#</div>
+                                        <div class="tb-2">Name</div>
+                                        <div class="tb-3">Class</div>
+                                        <div class="tb-4">LvL</div>
+                                        <div class="tb-5">Res</div>
+                                    </li>
+                                    <li class="info-table">
+                                        <div class="tb-1">1</div>
+                                        <div class="tb-2">Gakutenou</div>
+                                        <div class="tb-3">
+                                            <span
+                                                style="width:40px; height:40px;transform: rotate(45deg);overflow: hidden;"><img
+                                                    style="transform: rotate(-45deg) scale(1.42);width: 20px;height:20px"
+                                                    src="https://mu-online.lv/assets/default_assets/images/char_icons/le.jpg"
+                                                    title="Lord Emperor"></span>
+                                        </div>
+                                        <div class="tb-4">380<sup>400</sup></div>
+                                        <div class="tb-5">194<sup>12</sup></div>
+                                    </li>
+                                    <li class="info-table">
+                                        <div class="tb-1">1</div>
+                                        <div class="tb-2">Gakutenou</div>
+                                        <div class="tb-3">
+                                            <span
+                                                style="width:40px; height:40px;transform: rotate(45deg);overflow: hidden;"><img
+                                                    style="transform: rotate(-45deg) scale(1.42);width: 20px;height:20px"
+                                                    src="https://mu-online.lv/assets/default_assets/images/char_icons/le.jpg"
+                                                    title="Lord Emperor"></span>
+                                        </div>
+                                        <div class="tb-4">380<sup>400</sup></div>
+                                        <div class="tb-5">194<sup>12</sup></div>
+                                    </li>
+                                    <li class="info-table">
+                                        <div class="tb-1">1</div>
+                                        <div class="tb-2">Gakutenou</div>
+                                        <div class="tb-3">
+                                            <span
+                                                style="width:40px; height:40px;transform: rotate(45deg);overflow: hidden;"><img
+                                                    style="transform: rotate(-45deg) scale(1.42);width: 20px;height:20px"
+                                                    src="https://mu-online.lv/assets/default_assets/images/char_icons/le.jpg"
+                                                    title="Lord Emperor"></span>
+                                        </div>
+                                        <div class="tb-4">380<sup>400</sup></div>
+                                        <div class="tb-5">194<sup>12</sup></div>
+                                    </li>
+                                    <li class="info-table">
+                                        <div class="tb-1">1</div>
+                                        <div class="tb-2">Gakutenou</div>
+                                        <div class="tb-3">
+                                            <span
+                                                style="width:40px; height:40px;transform: rotate(45deg);overflow: hidden;"><img
+                                                    style="transform: rotate(-45deg) scale(1.42);width: 20px;height:20px"
+                                                    src="https://mu-online.lv/assets/default_assets/images/char_icons/le.jpg"
+                                                    title="Lord Emperor"></span>
+                                        </div>
+                                        <div class="tb-4">380<sup>400</sup></div>
+                                        <div class="tb-5">194<sup>12</sup></div>
+                                    </li>
+                                    <li class="info-table">
+                                        <div class="tb-1">1</div>
+                                        <div class="tb-2">Gakutenou</div>
+                                        <div class="tb-3">
+                                            <span
+                                                style="width:40px; height:40px;transform: rotate(45deg);overflow: hidden;"><img
+                                                    style="transform: rotate(-45deg) scale(1.42);width: 20px;height:20px"
+                                                    src="https://mu-online.lv/assets/default_assets/images/char_icons/le.jpg"
+                                                    title="Lord Emperor"></span>
+                                        </div>
+                                        <div class="tb-4">380<sup>400</sup></div>
+                                        <div class="tb-5">194<sup>12</sup></div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="more">
+                                <a href="#####" class="more-button button">more</a>
+                            </div>
+                        </div>
+                        <span class="corner-top-left-top-player corner-top-left-blue-top-player"></span>
+                    </div>
+                    <!-- กล่องประกาศ top guilds -->
+                    <div class="main-box">
+                        <div class="home-block home-block-top">
+                            <div class="home-block-title">Top Guilds</div>
+                            <div class="box-list-topplayer">
+                                <ul class="list-table">
+                                    <li class="hader-table">
+                                        <div class="tb-1">#</div>
+                                        <div class="tb-2">Name</div>
+                                        <div class="tb-3">Logo</div>
+                                        <div class="tb-4">score</div>
+                                        <div class="tb-5">total lvl</div>
+                                    </li>
+                                    <li class="info-table">
+                                        <div class="tb-1">1</div>
+                                        <div class="tb-2">Evidence</div>
+                                        <div class="tb-3">
+                                            <span
+                                                style="width:40px; height:40px;transform: rotate(45deg);overflow: hidden;"><img
+                                                    style="transform: rotate(-45deg) scale(1.42);width: 20px;height:20px"
+                                                    src="https://mu-online.lv/rankings/get_mark/0007700000077000000770000007700000077000000000000007700000077000/20"></span>
+                                        </div>
+                                        <div class="tb-4">0</div>
+                                        <div class="tb-5">26</div>
+                                    </li>
+                                    <li class="info-table">
+                                        <div class="tb-1">1</div>
+                                        <div class="tb-2">Evidence</div>
+                                        <div class="tb-3">
+                                            <span
+                                                style="width:40px; height:40px;transform: rotate(45deg);overflow: hidden;"><img
+                                                    style="transform: rotate(-45deg) scale(1.42);width: 20px;height:20px"
+                                                    src="https://mu-online.lv/rankings/get_mark/0007700000077000000770000007700000077000000000000007700000077000/20"></span>
+                                        </div>
+                                        <div class="tb-4">0</div>
+                                        <div class="tb-5">26</div>
+                                    </li>
+                                    <li class="info-table">
+                                        <div class="tb-1">1</div>
+                                        <div class="tb-2">Evidence</div>
+                                        <div class="tb-3">
+                                            <span
+                                                style="width:40px; height:40px;transform: rotate(45deg);overflow: hidden;"><img
+                                                    style="transform: rotate(-45deg) scale(1.42);width: 20px;height:20px"
+                                                    src="https://mu-online.lv/rankings/get_mark/0007700000077000000770000007700000077000000000000007700000077000/20"></span>
+                                        </div>
+                                        <div class="tb-4">0</div>
+                                        <div class="tb-5">26</div>
+                                    </li>
+                                    <li class="info-table">
+                                        <div class="tb-1">1</div>
+                                        <div class="tb-2">Evidence</div>
+                                        <div class="tb-3">
+                                            <span
+                                                style="width:40px; height:40px;transform: rotate(45deg);overflow: hidden;"><img
+                                                    style="transform: rotate(-45deg) scale(1.42);width: 20px;height:20px"
+                                                    src="https://mu-online.lv/rankings/get_mark/0007700000077000000770000007700000077000000000000007700000077000/20"></span>
+                                        </div>
+                                        <div class="tb-4">0</div>
+                                        <div class="tb-5">26</div>
+                                    </li>
+                                    <li class="info-table">
+                                        <div class="tb-1">1</div>
+                                        <div class="tb-2">Evidence</div>
+                                        <div class="tb-3">
+                                            <span
+                                                style="width:40px; height:40px;transform: rotate(45deg);overflow: hidden;"><img
+                                                    style="transform: rotate(-45deg) scale(1.42);width: 20px;height:20px"
+                                                    src="https://mu-online.lv/rankings/get_mark/0007700000077000000770000007700000077000000000000007700000077000/20"></span>
+                                        </div>
+                                        <div class="tb-4">0</div>
+                                        <div class="tb-5">26</div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="more">
+                                <a href="#####" class="more-button button">more</a>
+                            </div>
+                        </div>
+                        <span class="corner-top-left-top-player corner-top-left-purple-top-player"></span>
+                    </div>
+                </div>
+            </div>
+            <!-- Top Player && Top Guilds -->
+            <!-- Event -->
+            <div class="event-main-box">
+                <div class="event-box">
+                    <div class="item-event-box item-event-1">
+                        <div class="event-icon-1"></div>
+                        <div class="text-box">
+                            <h2>forum</h2>
+                            <span>details</span>
+                        </div>
+                        <div class="more btn-about center-box">
+                            <a href="#####" class="more-button button">more</a>
+                        </div>
+                    </div>
+                    <div class="item-event-box item-event-2">
+                        <div class="event-icon-2"></div>
+                        <div class="text-box">
+                            <h2>DONATE</h2>
+                            <span>details</span>
+                        </div>
+                        <div class="more btn-about center-box">
+                            <a href="#####" class="more-button button">more</a>
+                        </div>
+                    </div>
+                    <div class="item-event-box item-event-3">
+                        <div class="event-icon-3"></div>
+                        <div class="text-box">
+                            <h2>STATISTICS</h2>
+                            <span>details</span>
+                        </div>
+                        <div class="more btn-about center-box">
+                            <a href="#####" class="more-button button">more</a>
+                        </div>
+                    </div>
+                    <!-- facebook twitch discord -->
+                    <div class="box-social">
+                        <div class="item-social bg-social-1">
+                            <!-- icon     -->
+                            <div class="icon-social icon-social-1"></div>
+                            <!-- text social -->
+                            <div class="text-social-box">
+                                <h5 class="facebook">Facebook</h5>
+                                <span>Right now!</span>
+                            </div>
+                        </div>
+                        <div class="item-social bg-social-2">
+                            <!-- icon     -->
+                            <div class="icon-social icon-social-2"></div>
+                            <!-- text social -->
+                            <div class="text-social-box">
+                                <h5 class="twitch">Twitch</h5>
+                                <span>Right now!</span>
+                            </div>
+                        </div>
+                        <div class="item-social bg-social-3">
+                            <!-- icon     -->
+                            <div class="icon-social icon-social-3"></div>
+                            <!-- text social -->
+                            <div class="text-social-box">
+                                <h5 class="discord">Discord</h5>
+                                <span>Right now!</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="event-box event-box-2">
+                    <div class="event-conner-bottom-right"></div>
+                    <!-- หัวข้อ -->
+                    <div class="home-block-title title-m w-full">EVENTS</div>
+                    <div class="list-event">
+                        <div class="item-event">
+                            <!-- top item event -->
+                            <div class="dis-flex top-item-event">
+                                <h6>BattleRoyale</h6>
+                                <span>05:18</span>
+                            </div>
+                            <!-- bottom item event -->
+                            <div class="dis-flex bottom-item-event">
+                                <h5>Starts In</h5>
+                                <span>00s</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Event -->
         </div>
-        <!-- Top Player && Top Guilds -->
 
         <!-- ตัวละคร -->
         <div class="box-characters">
@@ -557,6 +697,26 @@
             </div>
             <!-- ตัวละคร -->
         </div>
+        <!-- เริ่ม ส่วนของ about -->
+        <div class="about-box corner-top-left-purple-top-about">
+            <!-- หัวข้อ -->
+            <div class="home-block-title title-m">ABOUT SERVER</div>
+            <!-- รูปภาพ -->
+            <div class="img-about">
+                <img src="assets/image/about-imgs/img-about.jpg" alt="">
+            </div>
+            <!-- ข้อมูล -->
+            <p>New changes to Castle Siege come into effect this week. Now, in addition to the winner of the castle,
+                will be determined and the second place - the guild with the most points during the siege. Owners of
+                the castle will receive 60% of the treasury of the castle, the second place will receive 40% of the
+                treasury. In addition to the treasury on the server Mega, we assign a prize fund from the
+                administration in the amount of $ 5000.
+            </p>
+            <div class="more btn-about">
+                <a href="#####" class="more-button button">more</a>
+            </div>
+        </div>
+        <!-- เริ่ม ส่วนของ about -->
         <script src="https://code.jquery.com/jquery-3.7.1.min.js"
             integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
         <script src="owlcarousel/dist/owl.carousel.min.js"></script>
@@ -633,6 +793,14 @@
 
                 $(".img-avatar").css("background-image", `url('assets/image/Characters/hero/hero-${indexAvatar}.png')`);
 
+            })
+        </script>
+        <!-- เพิ่มอันใหม่ -->
+        <script>
+            $('.owl-board').owlCarousel({
+                loop: true,
+                items: 1,
+                nav: true,
             })
         </script>
 </body>

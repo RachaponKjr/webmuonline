@@ -251,7 +251,6 @@
 .main-box-board{
   width: 100%;
   padding: 3rem 0;
-  background-color: #0F0E0C;
 }
 .cover-box{
   width: max-content;
@@ -328,3 +327,13 @@
   flex-wrap: wrap;
 }
 
+.main-all-box{
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  background-image: url(assets/image/home-top-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  width: 100%;
+}
